@@ -1,9 +1,5 @@
 name: Send total results daily digest
 
-on:
-  schedule:
-    - cron: '0 5 * * *'
-
 jobs:
   send:
     runs-on: ubuntu-latest
