@@ -1,9 +1,5 @@
 name: Daily database cleanup
 
-on:
-  schedule:
-    - cron: '0 6 * * *'
-
 jobs:
   clean:
     runs-on: ubuntu-latest
