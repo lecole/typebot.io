@@ -1,9 +1,5 @@
 name: Send chats limit alert emails
 
-on:
-  schedule:
-    - cron: '0 * * * *'
-
 jobs:
   send:
     runs-on: ubuntu-latest
